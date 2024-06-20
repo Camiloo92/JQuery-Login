@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+
+}
+body{
+    background-color: rgb(116, 91, 191);
+}
+.container1{
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin-top: 30px;
+    
+}
+.containerIn{
+    border-color: solid 10px, rgb(100, 42, 42);
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    display: flex;
+    color: black;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: larger;
+    padding: 10px;
+
+}
+.containerIn h3{
+    margin-left: 30%;
+}
+.containerOver{
+    border-color: solid 10px, rgb(100, 42, 42);
+    border-radius: 15px;
+    display: block;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: blanchedalmond;
+    margin-top: 22px;
+    color: black;
+}
+#Enviar{
+    display: block;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 22px;
+
+}
+.containerOver form label, input{
+    display: block;
+    margin: 10px;
+}
